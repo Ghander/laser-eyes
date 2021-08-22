@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { ImageUpload } from './ImageUpload';
+import logo from './content/logo.png'
+import { useState } from 'react';
 
 function App() {
+    
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="body">
+      <header className="header text-center">
+        <img className="header-img" src={logo} alt="" />
       </header>
+      <div className="d-flex justify-content-center">
+        <div className="d-flex align-items-start flex-column">
+          <ImageUpload></ImageUpload>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default App;
+
