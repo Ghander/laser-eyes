@@ -120,10 +120,10 @@ export const ImageUpload = (props: any) => {
                         </div>
                         {selectedImg &&
                             <div>
-                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 400, right: 950, zIndex: 999 }} />
-                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 395, right: 893, zIndex: 999 }} />
-                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 396, right: 819, zIndex: 999 }} />
-                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 385, right: 765, zIndex: 999 }} />
+                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 477, right: 950, zIndex: 999 }} />
+                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 472, right: 893, zIndex: 999 }} />
+                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 473, right: 819, zIndex: 999 }} />
+                                <img className="laser-img" src={selectedImg} style={{ position: 'fixed', top: 462, right: 765, zIndex: 999 }} />
                             </div>
                         }
                     </div> :
